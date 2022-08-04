@@ -32,8 +32,24 @@ const AboutUs = () => {
             . Pada saat itu, nebeng kantor di Kantor Ka.Pasar Kumbasari dengan
             karyawan 3 orang.
           </p>
+          <div className="flex justify-around pt-8 w-full">
+            <div className="flex flex-col justify-center items-center space-y-3">
+              <p className="text-2xl font-bold text-gray-800">10+</p>
+              <div className="w-24 rounded-full h-2 bg-[#2196F3]"></div>
+              <p className="text-xl font-semibold text-gray-800">Cabang</p>
+            </div>
+            <div className="flex flex-col justify-center items-center space-y-3">
+              <p className="text-2xl font-bold text-gray-800">50+</p>
+              <div className="w-24 rounded-full h-2 bg-[#2196F3]"></div>
+              <p className="text-xl font-semibold text-gray-800">Pegawai</p>
+            </div>
+            <div className="flex flex-col justify-center items-center space-y-3">
+              <p className="text-2xl font-bold text-gray-800">40+ Th</p>
+              <div className="w-24 rounded-full h-2 bg-[#2196F3]"></div>
+              <p className="text-xl font-semibold text-gray-800">Berdiri</p>
+            </div>
+          </div>
         </div>
-        <div></div>
       </div>
     </>
   );

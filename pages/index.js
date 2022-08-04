@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import Navbar from "../components/layout/navbar";
 import Benner from "../components/benner/benner";
 import AboutUs from "../components/aboutUs/aboutUs";
+import OurService from "../components/slider/ourService";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       }, [])}
       {useMemo(() => {
         return <AboutUs />;
+      })}
+      {useMemo(() => {
+        return <OurService />;
       })}
     </>
   );
