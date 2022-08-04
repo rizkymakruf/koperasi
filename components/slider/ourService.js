@@ -6,7 +6,7 @@ const OurService = () => {
   return (
     <>
       <div className="h-screen w-full flex bg-blue-100">
-        <p className="pt-14 pl-5 text-6xl font-bold text-[#2196F3]">
+        <p className="pt-14 pl-5 text-6xl font-bold text-blue-800">
           Pelayanan Kami
         </p>
         <div className="w-8/12 h-screen absolute z-30 flex items-center px-5">
@@ -73,7 +73,7 @@ const OurService = () => {
             </div>
           </div>
         </div>
-        <div className="w-5/12 absolute z-20 right-0 h-screen pt-32">
+        <div className="w-5/12 absolute z-20 right-0 h-screen pt-20">
           <div className="w-full relative">
             <Image src={Artwork} layout={"responsive"} objectFit={"cover"} />
           </div>

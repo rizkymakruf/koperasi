@@ -6,10 +6,10 @@ const AboutUs = () => {
   return (
     <>
       <div className="w-full h-screen grid grid-cols-2">
-        <div className="relative w-full h-screen">
-          <Image src={Artwork} layout={"fill"} objectFit={"cover"} />
+        <div className="relative w-5/6 h-screen pt-10 pl-8">
+          <Image src={Artwork} layout={"responsive"} objectFit={"cover"} />
         </div>
-        <div className="pt-32 px-20 space-y-5">
+        <div className="pt-16 px-20 space-y-5">
           <p className="text-2xl font-semibold text-gray-800">
             KSP Kumbang Sari
           </p>
