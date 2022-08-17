@@ -1,6 +1,6 @@
 import { memo } from "react";
 import Image from "next/dist/client/image";
-import Artwork from "../../public/Artwork2.png";
+import Artwork from "../../public/Artwork4.png";
 
 const AboutUs = () => {
   return (
