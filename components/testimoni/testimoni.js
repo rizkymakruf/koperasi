@@ -1,6 +1,6 @@
 import { memo } from "react";
 import Image from "next/image";
-import Artwork from "../../public/artwork8.png";
+import Artwork from "../../public/artwork88.png";
 import EmblaCarousel1 from "../testimoni/embla";
 
 const Testimoni = () => {
