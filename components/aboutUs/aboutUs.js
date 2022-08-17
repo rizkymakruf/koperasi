@@ -13,7 +13,7 @@ const AboutUs = () => {
           <p className="text-2xl font-semibold text-gray-800">
             KSP Kumbang Sari
           </p>
-          <p className="text-justify">
+          <p className="text-justify text-sm">
             Pembentukan Koppas Kumbasari {"–"} Badung yang berdiri pada tanggal
             31 Januari 1081, diprakarsai oleh Kepala Pasar Kumbasari yang pada
             saat itu dijabat oleh Bapak I Gst.Ngr.Ketut Suardika,BSc. Bersama
