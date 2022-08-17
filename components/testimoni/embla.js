@@ -6,7 +6,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/dist/client/image";
 import Pic1 from "../../public/duit.jpg";
 
-const EmblaCarousel = ({ slides }) => {
+const EmblaCarousel1 = ({ slides }) => {
   const [viewportRef, embla] = useEmblaCarousel({
     slidesToScroll: 4,
     skipSnaps: false,
@@ -184,4 +184,4 @@ const EmblaCarousel = ({ slides }) => {
   );
 };
 
-export default memo(EmblaCarousel);
+export default memo(EmblaCarousel1);

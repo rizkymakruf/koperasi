@@ -6,6 +6,7 @@ import Benner from "../components/benner/benner";
 import AboutUs from "../components/aboutUs/aboutUs";
 import OurService from "../components/slider/ourService";
 import Pengurus from "../components/pengurus/pengurus";
+import Testimoni from "../components/testimoni/testimoni";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
       })}
       {useMemo(() => {
         return <Pengurus />;
+      })}
+      {useMemo(() => {
+        return <Testimoni />;
       })}
     </>
   );
