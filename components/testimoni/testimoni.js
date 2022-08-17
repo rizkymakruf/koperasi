@@ -16,7 +16,7 @@ const Testimoni = () => {
           </div>
         </div>
         <div className="w-full h-[70%] relative z-10 bg-blue-200">
-          <div className="absolute -top-20 left-10 text-5xl font-bold text-[#0D47A1]">
+          <div className="absolute -top-16 left-10 text-5xl font-bold text-[#0D47A1]">
             CLIENT TESTIMONI
           </div>
           <div className="absolute -top-10 right-6 ">

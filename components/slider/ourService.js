@@ -20,7 +20,7 @@ const OurService = () => {
           <div className="absolute -top-20 left-10 text-7xl font-bold text-[#0D47A1]">
             OUR SERVICE
           </div>
-          <div className="absolute -top-10 right-6 ">
+          {/* <div className="absolute -top-10 right-6 ">
             <div className="flex justify-center items-center text-md font-semibold text-[#0D47A1] gap-2">
               <p>Lihat semua</p>
               <svg
@@ -38,7 +38,7 @@ const OurService = () => {
                 />
               </svg>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
