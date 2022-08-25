@@ -131,3 +131,7 @@
 }
 
 /* end embla */
+
+html {
+  scroll-behavior: smooth;
+}

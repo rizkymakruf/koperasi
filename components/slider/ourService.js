@@ -17,8 +17,8 @@ const OurService = () => {
           </div>
         </div>
         <div className="w-full h-[70%] relative z-10 bg-blue-200">
-          <div className="absolute -top-20 left-10 text-7xl font-bold text-[#0D47A1]">
-            OUR SERVICE
+          <div className="absolute -top-20 left-10 text-6xl font-bold text-black">
+            PELAYANAN KAMI
           </div>
           {/* <div className="absolute -top-10 right-6 ">
             <div className="flex justify-center items-center text-md font-semibold text-[#0D47A1] gap-2">
