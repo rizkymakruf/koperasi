@@ -40,9 +40,9 @@ const EmblaCarousel = ({ slides }) => {
           </div> */}
           {/* ))} */}
           <div className="embla__slide">
-            <div className="embla__slide__inner relative rounded-md">
-              <div className="border border-[#2196F3] bg-white rounded-md shadow-md shadow-blue-300">
-                <div className="w-full h-36 rounded-t-md">
+            <div className="embla__slide__inner relative rounded-lg">
+              <div className="border border-[#2196F3] bg-white rounded-lg shadow-md shadow-blue-300">
+                <div className="w-full h-36 rounded-t-lg">
                   <Image
                     src={Pic1}
                     layout={"responsive"}
