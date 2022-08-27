@@ -7,6 +7,7 @@ import AboutUs from "../components/aboutUs/aboutUs";
 import OurService from "../components/slider/ourService";
 import Pengurus from "../components/pengurus/pengurus";
 import Testimoni from "../components/testimoni/testimoni";
+import Footer from "../components/layout/footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
       })}
       {useMemo(() => {
         return <Testimoni />;
+      })}
+      {useMemo(() => {
+        return <Footer />;
       })}
     </>
   );
